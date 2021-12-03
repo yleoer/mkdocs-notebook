@@ -17,6 +17,7 @@ jobs:
       - name: install mkdocs-material
         run: |
           pip install mkdocs-material
+          pip install git-revision-date
           mkdocs build
         env:
           CI: true
