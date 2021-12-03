@@ -1,0 +1,23 @@
+site_name: My Docs
+repo_url: https://github.com/yleoer/mkdocs-notebook.git
+repo_name: yleoer/mkdocs-notebook
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: zh
+  font: false
+  favicon: https://river.yxuefeng.com/notebook/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.expand
+  palette:
+    primary: blue grey
+    accent: cyan
+  icon:
+    repo: fontawesome/brands/github
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+plugins:
+  - git-revision-date
