@@ -1,7 +1,11 @@
-site_name: My Docs
-repo_url: https://github.com/yleoer/mkdocs-notebook.git
+site_name: 某人的笔记库
+site_url: https://note.yxuefeng.com/
+site_author: yleoer
+site_description: 仅仅是某人的笔记库罢了
 repo_name: yleoer/mkdocs-notebook
-edit_uri: edit/main/docs/
+repo_url: https://github.com/yleoer/mkdocs-notebook.git
+copyright: Copyright &copy; 2021 yleoer
+
 theme:
   name: material
   language: zh
@@ -10,14 +14,48 @@ theme:
   features:
     - navigation.tabs
     - navigation.expand
+    - content.code.annotate
   palette:
     primary: blue grey
     accent: cyan
   icon:
-    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
 markdown_extensions:
+  - abbr
   - admonition
+  - meta
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 plugins:
+  - search
   - git-revision-date
+
+nav:
+  - 指南: index.md
