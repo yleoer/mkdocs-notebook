@@ -2,8 +2,8 @@ site_name: 某人的笔记库
 site_url: https://note.yxuefeng.com/
 site_author: yleoer
 site_description: 仅仅是某人的笔记库罢了
-repo_name: yleoer/mkdocs-notebook
-repo_url: https://github.com/yleoer/mkdocs-notebook.git
+#repo_name: yleoer/mkdocs-notebook
+#repo_url: https://github.com/yleoer/mkdocs-notebook.git
 copyright: Copyright &copy; 2021 yleoer
 
 theme:
