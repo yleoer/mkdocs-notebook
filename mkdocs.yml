@@ -63,3 +63,5 @@ nav:
   - 操作系统:
     - Linux:
       - 安装 zsh: os/linux/install-zsh.md
+  - Git:
+    - 换行符: git/multiplatform-newline-character.md
