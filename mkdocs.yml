@@ -58,7 +58,8 @@ plugins:
   - git-revision-date
 
 nav:
-  - 指南: index.md
+  - 首页: index.md
+  - 指南: guide.md
   - 操作系统:
     - Linux:
       - 安装 zsh: os/linux/install-zsh.md
